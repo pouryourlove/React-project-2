@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  width: 550px;
+  height: 70px;
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001a;
+}
+
+.nav-logo {
+  padding-left: 30px;
+  padding-top: 22px;
+}
+
+.hero-pic {
+  width: 400px;
+  height: 230px;
+}
+
+.hero-section {
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
