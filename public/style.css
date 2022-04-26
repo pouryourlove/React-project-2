@@ -4,12 +4,39 @@
 
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .navbar {
   width: 550px;
   height: 70px;
   box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001a;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
 }
 
 .nav-logo {
@@ -20,11 +47,66 @@ body {
 .hero-pic {
   width: 400px;
   height: 230px;
+  margin-left: 77px;
 }
 
 .hero-section {
   width: 550px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
   margin-top: 16px;
+}
+
+.hero-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+  margin-left: 36px;
+  margin-top: 32px;
+}
+
+.hero-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+  margin-left: 36px;
+  margin-top: 16px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  margin-top: 49px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+  margin-bottom: 8px;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  margin-left: 37px;
+}
+
+.card-text {
+  margin-bottom: 8px;
 }
