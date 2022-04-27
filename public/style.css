@@ -83,30 +83,33 @@ p,
   width: 175px;
   font-size: 12px;
   margin-top: 49px;
+  position: relative;
 }
 
 .card--image {
   width: 100%;
+  height: 235px;
   border-radius: 9px;
-}
-
-.card--stats {
-  display: flex;
-  align-items: center;
-  margin-top: 9px;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 
 .card--star {
   height: 14px;
 }
 
-.cards {
+.cards-list {
   display: flex;
-  gap: 10px;
-  margin-left: 37px;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 
-.card-text {
-  margin-bottom: 8px;
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
